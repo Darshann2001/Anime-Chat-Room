@@ -1,0 +1,218 @@
+/* reset start */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* RESET END */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    // background: url('images/loginbg.webp');
+    background: url(images/chat-bg1.jpg) repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 98%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.chat-bg {
+    background: url('https://wallpapers.com/images/hd/anime-collage-aesthetic-ictg913y1mtjrgku.jpg') repeat;
+    object-fit: cover;
+    padding: 13px 0px;
+    min-height: 720px;
+}
+
+.button-parent {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+/* room */
+.room {
+    overflow-y: hidden;
+
+    .room-form {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 243px 0px;
+
+        label {
+            font-size: 30px;
+            font-family: inherit;
+            margin-bottom: 10px;
+        }
+
+        .new-room-input {
+            border: none;
+            border-radius: 0%;
+            height: 40px;
+            outline: none;
+            font-size: 20px;
+            color: blue;
+            // text-transform: capitalize;
+            text-align: center;
+        }
+
+        .Room-btn {
+            font-size: 20px;
+            color: white;
+            background-color: rgb(25, 151, 201);
+            padding: 10px 30px;
+            border: none;
+        }
+    }
+}
+
+// global css
+.title {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 0px 72px 0px 72px;
+}
